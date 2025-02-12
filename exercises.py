@@ -20,7 +20,7 @@
    # print(f"Even number: {i}")
     
     
-# Exercise $  $reverse the users word
+# Exercise 4  $  $reverse the users word
 
 word = input("Enter a word: ")
 reversed_word = ""
