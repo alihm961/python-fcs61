@@ -6,8 +6,8 @@
     
 # formatted string (fstring)
 
-for i in range(1,11):
-    print(f"The square of {i} is {i**2}")
+#for i in range(1, 11):
+ #   print(f"The square of {i} is {i**2}")
 
 # while loop, be aware of infinite loop
 word = ""
