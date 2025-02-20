@@ -45,7 +45,7 @@ def display_results(month, salary, savings, rent, electricity, expenses, remaini
     print("Savings Divided by Extra Savings:", savings_divided)
     print("--------------------------------------")
     
-if __name__ == "__main__":
-    salary, month, savings_percentage, rent_percentage, electricity_percentage, extra_savings = collect_salary_details()
-    calculations = calculate_allocations(salary, savings_percentage, rent_percentage, electricity_percentage, extra_savings)
-    display_results(month, salary, *calculations)
+
+salary, month, savings_percentage, rent_percentage, electricity_percentage, extra_savings = collect_salary_details()
+calculations = calculate_allocations(salary, savings_percentage, rent_percentage, electricity_percentage, extra_savings)
+display_results(month, salary, *calculations)
